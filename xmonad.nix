@@ -30,7 +30,7 @@
 
   # Install any additional fonts that I require to be used with xmonad
   fonts.fonts = with pkgs; [
-    opensans-ttf
+    opensans-ttf             # Used in in my xmobar configuration
   ];
 
   # Install other packages that I require to be used with xmonad.
