@@ -56,7 +56,7 @@
   };
 
   # Groups to add
-  users.groups.craige.gid = 1000;
+  users.groups.myusername.gid = 1000;
 
   # Define a user account.
   users.users.myusername = {
