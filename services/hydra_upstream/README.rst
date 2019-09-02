@@ -19,6 +19,7 @@ Make sure that you have checked out the `Hydra source`_ somewhere locally and
 set the `imports` path correctly in `hydra_notify.nix`:
 
 ::
+
   imports =
     [
       "/path/to/source/hydra/hydra-module.nix"
