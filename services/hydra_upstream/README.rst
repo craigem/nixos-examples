@@ -36,4 +36,9 @@ $ ./result/bin/run-hydra-notications-vm
 You should now find yourself running a VM with Hydra and the `hydra-notify`
 service running.
 
+There's a more expansive blog post on using these files: `Replacing a NixOS
+Service with an Upstream Version`_
+
+
 .. _Hydra source: https://github.com/NixOS/hydra/
+.. _Replacing a NixOS Service with an Upstream Version: https://mcwhirter.com.au/craige/blog/2019/Replacing_a_NixOS_Service_with_an_Upstream_Version/
