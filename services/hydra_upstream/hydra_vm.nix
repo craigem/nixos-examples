@@ -2,14 +2,6 @@
 #
 # It is intended as an example of building a VM that builds Hydra from the
 # upstream source instead of from nixpkgs.
-#
-# To use this file, I recommend increasing the VM's RAM to 4G by setting this
-# in your shell:
-#
-# export QEMU_OPTS="-m 4192"
-#
-#
-# export QEMU_NET_OPTS="hostfwd=tcp::10443-:443,hostfwd=tcp::10022-:22"
 
 { config, pkgs, lib, ... }:
 
