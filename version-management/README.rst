@@ -11,18 +11,21 @@ To use this file:
 **Build with:**
 
 .. code:: bash
+
   $ nix-build '<nixpkgs/nixos>' -A vm --arg configuration ./gitea_vm.nix
 
 
 **Export** these variables, adjusting to suit yourself:
 
 .. code:: bash
+
   $ export QEMU_OPTS="-m 4192 --nographic"
   $ export QEMU_NET_OPTS="hostfwd=tcp::18080-:80,hostfwd=tcp::10022-:22"
 
 **Launch** the VM with:
 
 .. code:: bash
+
   $ ./result/bin/run-gitea-vm-vm
 
 You should now be able to:
