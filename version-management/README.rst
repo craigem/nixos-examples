@@ -10,27 +10,25 @@ To use this file:
 
 **Build with:**
 
-```
-nix-build '<nixpkgs/nixos>' -A vm --arg configuration ./gitea_vm.nix
-```
+.. code:: bash
+  $ nix-build '<nixpkgs/nixos>' -A vm --arg configuration ./gitea_vm.nix
+
 
 **Export** these variables, adjusting to suit yourself:
 
-```
-$ export QEMU_OPTS="-m 4192 --nographic"
-$ export QEMU_NET_OPTS="hostfwd=tcp::18080-:80,hostfwd=tcp::10022-:22"
-```
+.. code:: bash
+  $ export QEMU_OPTS="-m 4192 --nographic"
+  $ export QEMU_NET_OPTS="hostfwd=tcp::18080-:80,hostfwd=tcp::10022-:22"
 
 **Launch** the VM with:
 
-```
-$ ./result/bin/run-gitea-vm-vm
-```
+.. code:: bash
+  $ ./result/bin/run-gitea-vm-vm
 
 You should now be able to:
 
 * Login a the shell
-* Login via ssh: `ssh nixos@localhost -p 10022`
+* Login via ssh: :code:`ssh nixos@localhost -p 10022`
 * Login via the web: `http://localhost:18080/`_
 
 .. _http://localhost:18080/: http://localhost:18080/
