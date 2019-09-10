@@ -42,3 +42,9 @@ gitea_for_VM_testing.nix
 This file describes the Gitea configuration to be deployed. As such it
 represents a deployment only suitable to testing purposes and should not be
 used as an example of a production deployment.
+
+
+gitea_for_NixOps.nix
+--------------------
+
+This provides an example of a production deployment of Gitea via NixOps.
