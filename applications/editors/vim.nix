@@ -7,7 +7,7 @@ vim_configurable.customize {
   # Below you can specify what usually goes into `~/.vimrc`
   vimrcConfig.customRC = ''
     " Preferred global default settings:
-    set number                    " Enable line number by default
+    set number                    " Enable line numbers by default
     set background=dark           " Set the default background to dark or light
     set smartindent               " Automatically insert extra level of indentation
     set tabstop=4                 " Default tabstop
@@ -16,8 +16,8 @@ vim_configurable.customize {
     syntax enable                 " Enable syntax highlighting
     colorscheme solarized         " Set the default colour scheme
     set t_Co=256                  " use 265 colors in vim
-    set spell spelllang=en_au     " Defaul spell checking language
-    hi clear SpellBad             " clear any unwanted defaul settings
+    set spell spelllang=en_au     " Default spell checking language
+    hi clear SpellBad             " Clear any unwanted default settings
     hi SpellBad cterm=underline   " Set the spell checking highlight style
     hi SpellBad ctermbg=NONE      " Set the spell checking highlight background
     match ErrorMsg '\s\+$'        "
@@ -27,7 +27,7 @@ vim_configurable.customize {
 
     set laststatus=2   " Set up the status line so it's coloured and always on
 
-    " Add more setting below
+    " Add more settings below
   '';
   # store your plugins in Vim packages
   vimrcConfig.packages.myVimPackage = with pkgs.vimPlugins; {
