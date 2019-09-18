@@ -14,5 +14,14 @@
       group       = "wheel";                      # Group to own the key file
       permissions = "0640";                       # Key file permissions
     };
+
+    # Database key for TT-RSS
+    tt-rss-dbpass = {
+      text        = "vaetohH{u9Veegh3caechish";   # Password, generated using pwgen -yB 24
+      user        = "tt_rss";                     # User to own the key file
+      group       = "wheel";                      # Group to own the key file
+      permissions = "0640";                       # Key file permissions
+    };
+
   };
 }
