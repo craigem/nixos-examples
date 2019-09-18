@@ -1,3 +1,4 @@
+*.out
 *.qcow2
 *.swp
 result
