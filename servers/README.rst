@@ -1,5 +1,5 @@
 tt-rss_vm.nix
-------------
+-------------
 
 A Nix configuration for a VM to run Tiny Tiny RSS (TT-RSS).
 
@@ -40,7 +40,7 @@ The default user for TT-RSS is  "admin" and the default password is "password".
 .. _http://localhost:18080/: http://localhost:18080/
 
 tt-rss_for_VM_testing.nix
-------------------------
+-------------------------
 
 This file describes the TT-RSS configuration to be deployed. As such it
 represents a deployment only suitable to testing purposes and should not be
@@ -48,6 +48,6 @@ used as an example of a production deployment.
 
 
 tt-rss_for_NixOps.nix
---------------------
+---------------------
 
 This provides an example of a production deployment of TT-RSS via NixOps.
